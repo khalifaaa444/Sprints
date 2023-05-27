@@ -1,5 +1,5 @@
-#ifndef UART_SERVICES_H_
-#define UART_SERVICES_H_
+#ifndef UART_SERVICE_H_
+#define UART_SERVICE_H_
 
 #include "uart.h"
 
