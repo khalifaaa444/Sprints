@@ -1,11 +1,14 @@
 #ifndef _BCM_H_
 #define _BCM_H_
 
+#include "../common/standard.h"
+#include "../common/mammap.h"
+#include "../common/utlise.h"
 
 
-u8 bcm_init();
+void bcm_init();
 
-u8 bcm_send();
+void bcm_send(u8* str);
 
 
 
