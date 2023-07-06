@@ -246,7 +246,7 @@ static void prvSetupHardware( void )
 	configTimer1();
 
 	/* Setup the peripheral bus to be the same as the PLL output. */
-	VPBDIV = mainBUS_CLK_FULL;
+	VPBDIV = mainBUS_CLK_FULL;;
 }
 /*-----------------------------------------------------------*/
 
